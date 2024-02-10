@@ -4,7 +4,7 @@ provider "aws" {
 
 provider "vault" {
   address = "<>:8200"
-  skip_child_token = true
+  //skip_child_token = true
 
   auth_login {
     path = "auth/approle/login"
